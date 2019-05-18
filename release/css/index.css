@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.content{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	background-color: #bcdaf2;
+}
+.content p{
+	width: 400px;
+	height: 50px;
+	background-color: #a8e3e1;
+	line-height: 50px;
+	font-size: 20px;
+	color: #ffffff;
+}
+.content p span{
+	float: right;
+	margin-right: 20px;
+}
+.content .story{
+	width: 400px;
+	height: 240px;
+}
+.bigBox{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.2);
+	left: 0;
+	top: 0;
+	display: none; 
+}
+
+ .bigbox{
+	display: block; 
+}
+.divs{
+	width: 400px;
+	height: 1000px;
+	margin: 0 auto;
+}
+.divs .ac{
+	width: 400px;
+	height: 200px;
+	border: 1px dashed #ccc;
+}
+.date{
+	color: #ccc;
+}
+#withdrow{
+	position: absolute;
+}
+.look{
+	display: none;
+}
